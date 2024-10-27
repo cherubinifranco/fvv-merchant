@@ -1,41 +1,18 @@
 # karenderia merchant app (com.demo.merchantapp)
 
-merchant app
+# Update the app
 
-## Install the dependencies
-```bash
-yarn
-# or
-npm install
+Update app ``version`` in `package.json`
+
+```
+npm run build
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
-```bash
-quasar dev
-```
+Make a new release in the [proyect repository](https://github.com/cherubinifranco/fvv-merchant)
 
+> To change the repository that the app fetches update `repository` on `package.json`
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
+Upload files from `dist\electron\Packaged` in the release. 
+> All files except for `win-unpacked` folder
 
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
-```bash
-quasar build
-```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+> Change all the spaces in the files with a Hyphen " - "
